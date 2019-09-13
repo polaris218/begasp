@@ -1,0 +1,7 @@
+#rename this .env
+PRISMA_SECRET=prisma
+# PRISMA_ENDPOINT=http://192.168.99.100:4466/bea/dev
+PRISMA_ENDPOINT=http://localhost:4466/bea/dev
+AUTH0_DOMAIN=XXXX.auth0.com
+AUTH0_AUDIENCE=https://XXXXX.auth0.com/api/v2/
+AUTH0_ISSUER=https://XXX.auth0.com/

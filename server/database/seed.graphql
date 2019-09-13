@@ -1,0 +1,18 @@
+
+mutation {
+  user1: createUser(data: {
+    email: "alice@prisma.io"
+    name: "Alice"
+    auth0id: "0918298071215"
+  }) {
+    id
+  }
+
+  user2: createUser(data: {
+    email: "bob@prisma.io"
+    name: "Bob"
+    auth0id: "0918298071238"
+  }) {
+    id
+  }
+}
